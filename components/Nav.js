@@ -44,7 +44,7 @@ const Nav = () => {
             <Link
               className={`${
                 link.path === pathname && "text-accent"
-              } relative flex itmes-center group hover:text-accent transition-all duration-300 `}
+              } relative flex itmes-center group hover:text-accent `}
               href={link.path}
               key={index}
             >
