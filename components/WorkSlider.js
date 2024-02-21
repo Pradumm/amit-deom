@@ -85,18 +85,18 @@ const WorkSlider = () => {
                       {/* image */}
                       <Image src={image.path} width={500} height={300} alt="" />
                       {/* over lay gradiant */}
-                      <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 trasition-all duration-700 "></div>
+                      <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 trasition-all duration-50 "></div>
                       {/* title */}
-                      <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
+                      <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-10">
                         <div className="flex items-center gap-x-2  text-[13px] tracking-[0.2em] ">
                           {/* title part 1 */}
-                          <div className="delay-100">LIVE</div>
+                          <div className="delay-10">LIVE</div>
                           {/* title part 2 */}
-                          <div className="translate-y-[500%] group-hover:translate-y-0 transation-all duration-300 delay-150 ">
+                          <div className="translate-y-[500%] group-hover:translate-y-0 transation-all duration-10 delay-20 ">
                             PROJECT
                           </div>
                           {/* icon */}
-                          <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all delay-200 "><BsArrowRight /></div>
+                          <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all delay-30 "><BsArrowRight /></div>
                         </div>
                       </div>
                     </div>

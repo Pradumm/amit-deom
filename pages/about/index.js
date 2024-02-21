@@ -110,7 +110,7 @@ const About = () => {
       <Circles />
       {/* Avatar img */}
       <motion.div
-        variants={fadeIn("right", 0.2)}
+        variants={fadeIn("right", 0.1)}
         initial="hidden"
         animate="show"
         exit="hidden"
@@ -122,7 +122,7 @@ const About = () => {
         {/* text */}
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
-            variants={fadeIn("right", 0.2)}
+            variants={fadeIn("right", 0.1)}
             initial="hidden"
             animate="show"
             exit="hidden"
@@ -133,7 +133,7 @@ const About = () => {
             captivating stories.
           </motion.h2>
           <motion.p
-            variants={fadeIn("right", 0.4)}
+            variants={fadeIn("right", 0.1)}
             initial="hidden"
             animate="show"
             exit="hidden"
@@ -145,7 +145,7 @@ const About = () => {
           </motion.p>
           {/* counter */}
           <motion.div
-            variants={fadeIn("right", 0.6)}
+            variants={fadeIn("right", 0.1)}
             initial="hidden"
             animate="show"
             exit="hidden"
@@ -193,7 +193,7 @@ const About = () => {
         </div>
         {/* info */}
         <motion.div
-          variants={fadeIn("left", 0.4)}
+          variants={fadeIn("left", 0.1)}
           initial="hidden"
           animate="show"
           exit="hidden"
@@ -204,7 +204,7 @@ const About = () => {
               <div
                 key={itemIndex}
                 className={`${index === itemIndex &&
-                  "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300"
+                  "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-10"
                   } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
                 onClick={() => setIndex(itemIndex)}
               >
